@@ -3,7 +3,7 @@
 
 ## Creates square matrix, randomly assigned values using Poisson, finally finds and caches the inverse of matrix
 
-mmakeCacheMatrix <- function(x = matrix()) {
+makeCacheMatrix <- function(x = matrix()) {
   t<-x^2
   m<-matrix(rpois(t,20),x,x)
   
